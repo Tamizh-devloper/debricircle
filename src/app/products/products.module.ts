@@ -49,9 +49,10 @@ import { HttpClientModule } from '@angular/common/http';
 import { SearchtextPipe } from './pipe/searchtext.pipe';
 import { AddtocartComponent } from './components/addtocart/addtocart.component';
 import { CartComponent } from './components/cart/cart.component';
-import { DebriheaderComponent } from '../common components/debriheader/debriheader.component';
 import { SharedModule } from '../shared.module';
 import { ChangeAddressComponent } from './components/change-address/change-address.component';
+import { AboutUsComponent } from './components/about-us/about-us.component';
+import { DebriheaderComponent } from '../common components/debriheader/debriheader.component';
 
 
 
@@ -70,6 +71,8 @@ import { ChangeAddressComponent } from './components/change-address/change-addre
     AddtocartComponent,
     CartComponent,
     ChangeAddressComponent,
+    AboutUsComponent,
+
 
   ],
   imports: [
@@ -104,7 +107,8 @@ import { ChangeAddressComponent } from './components/change-address/change-addre
     MatSnackBarModule,
     MatTableModule,
     MatSortModule,MatNativeDateModule,
-    MatPaginatorModule,FormsModule,ReactiveFormsModule,HttpClientModule,SharedModule
+    MatPaginatorModule,FormsModule,ReactiveFormsModule,HttpClientModule,SharedModule,
+
   ]
 })
 export class ProductsModule { }

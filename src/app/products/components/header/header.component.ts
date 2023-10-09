@@ -28,7 +28,7 @@ export class HeaderComponent {
         // Add your logout function here
       } else {
         // User canceled the logout
-        
+
       }
     });
   }
@@ -100,5 +100,8 @@ export class HeaderComponent {
         // this.router.navigate(['/login']); // Import Router and uncomment this line if you have a login route
       }
     });
+  }
+  aboutus(){
+    this.router.navigateByUrl('/aboutus')
   }
 }

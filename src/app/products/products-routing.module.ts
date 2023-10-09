@@ -6,6 +6,8 @@ import { DisposewasteComponent } from './components/disposewaste/disposewaste.co
 import { AuthGuard } from '../shared/auth.guard';
 import { WasteManagementComponent } from './components/waste-management/waste-management.component';
 import { AddtocartComponent } from './components/addtocart/addtocart.component';
+import { ProductlistComponent } from '../admin/components/productlist/productlist.component';
+import { AboutUsComponent } from './components/about-us/about-us.component';
 
 
 const routes: Routes = [
@@ -35,6 +37,11 @@ const routes: Routes = [
     component: AddtocartComponent,
     canActivate:[AuthGuard]
   },
+  {
+    path: 'aboutus',
+    component: AboutUsComponent,
+    canActivate:[AuthGuard]
+  }
 ];
 
 @NgModule({

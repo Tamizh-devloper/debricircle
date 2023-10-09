@@ -58,6 +58,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ProfileModule } from './profile/profile.module';
 import { DebriheaderComponent } from './common components/debriheader/debriheader.component';
 import { AdminModule } from './admin/admin.module';
+import { NgImageSliderModule } from 'ng-image-slider';
 
 
 
@@ -106,7 +107,8 @@ import { AdminModule } from './admin/admin.module';
     MatSnackBarModule,
     MatTableModule,
     MatSortModule,MatNativeDateModule,
-    MatPaginatorModule,HomeModule,HttpClientModule,AdminModule
+    MatPaginatorModule,HomeModule,HttpClientModule,AdminModule,
+    NgImageSliderModule,
   ],
   providers: [RegisterService,],
   bootstrap: [AppComponent]
