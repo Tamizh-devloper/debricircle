@@ -143,4 +143,7 @@ export class DebriheaderComponent {
   aboutus(){
     this.router.navigateByUrl('/aboutus');
   }
+  consultationservice(){
+    this.router.navigateByUrl('/consultaionservice');
+}
 }
